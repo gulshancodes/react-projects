@@ -2,7 +2,7 @@ const homeData = [
     {
         id: 1,
         title: "Counter",
-        path: "/counter",
+        path: "https://gulshan-react-projects.netlify.app/counter",
     },
     {
         id: 2,
