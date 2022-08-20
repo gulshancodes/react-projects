@@ -19,7 +19,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='https://gulshan-react-projects.netlify.app/counter' element={<Counter />} />
+        <Route path='counter' element={<Counter />} />
         <Route path='accordion' element={<Accordion />} />
         <Route path='tabs' element={<Tabs />} />
         <Route path='sidebar' element={<Sidebar />} />
