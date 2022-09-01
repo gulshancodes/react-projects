@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './homepage/Home';
 import Counter from './projects/counter/Counter';
@@ -15,6 +16,11 @@ import SearchFilter from './projects/search-filter/SearchFilter';
 
 
 function App() {
+  
+  useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+  
   return (
     <>
       <Routes>
