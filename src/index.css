@@ -51,7 +51,6 @@
 
 html {
   font-size: 16px;
-  scroll-behavior: smooth;
   scrollbar-color: var(--color-5) var(--color-4);
 }
 
