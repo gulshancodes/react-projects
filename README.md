@@ -2,7 +2,7 @@
 
 ### [Demo Link](https://gulshan-react-projects.netlify.app/) 🔗
 
-List of mostly used UI Elements (or Components) in a Website, built with **React JS**
+List of mostly used UI Elements (or Components) in a Website, built with **React JS**.
 
 <br/>
 
@@ -46,9 +46,3 @@ List of mostly used UI Elements (or Components) in a Website, built with **React
 #### `npm run build`
 
 #### `npm run eject`
-
-<br/>
-
-## License:
-
-This project is licensed under the  **MIT License** - see the [LICENSE](LICENSE) file for details.
