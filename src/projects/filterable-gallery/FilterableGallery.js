@@ -23,7 +23,9 @@ const FilterableGallery = () => {
     const filterItem = (category, i) => {
 
         if (category === 'all') {
-            return setGalleryItems(galleryData);
+            setGalleryItems(galleryData);
+            setIsActive(i);
+            return;
         }
 
         const filteredData = galleryData.filter((currValue) => {
