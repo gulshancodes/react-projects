@@ -21,8 +21,7 @@ box-shadow: var(--shadow);
         transition: all 0.3s ease;
     
         &.active {
-            border-bottom: 2px solid var(--color-3);
-            color: #fff;
+            color: var(--color);
         }
     }
 `;
