@@ -18,7 +18,7 @@ box-shadow: var(--shadow);
         letter-spacing: 0.6px;
         text-transform: uppercase;
         cursor: pointer;
-        transition: all 0.3s ease;
+        transition: color 0.3s ease;
     
         &.active {
             color: var(--color);
