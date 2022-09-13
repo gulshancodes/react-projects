@@ -5,6 +5,7 @@ import { GalleryWrapper, FilterList } from './FilterableGalleryStyled';
 const FilterableGallery = () => {
 
     const [galleryItems, setGalleryItems] = useState(galleryData);
+    const [isActive, setIsActive] = useState(0);
 
 
     // making a unique set of items-category
@@ -19,7 +20,7 @@ const FilterableGallery = () => {
 
 
     // filtering the clicked item
-    const filterItem = (category) => {
+    const filterItem = (category, i) => {
 
         if (category === 'all') {
             return setGalleryItems(galleryData);
@@ -31,6 +32,7 @@ const FilterableGallery = () => {
         });
 
         setGalleryItems(filteredData);
+        setIsActive(i);
     };
 
 
@@ -43,7 +45,8 @@ const FilterableGallery = () => {
                             return (
                                 <li
                                     key={index}
-                                    onClick={() => filterItem(currValue)}
+                                    className={isActive === index ? 'active' : ''}
+                                    onClick={() => filterItem(currValue, index)}
                                 >
                                     {currValue}
                                 </li>
