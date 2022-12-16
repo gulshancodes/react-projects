@@ -37,7 +37,7 @@ List of mostly used UI Elements (or Components) in a Website, built with **React
 
 <br/>
 
-## Available Scripts
+## Available Scripts:
 
 #### `npm start`
 
