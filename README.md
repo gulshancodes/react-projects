@@ -1,6 +1,6 @@
 # React Projects
 
-### [Demo Link](https://gulshan-react-projects.netlify.app/) 🔗
+### [Demo Link](https://react-practical-projects.netlify.app/) 🔗
 
 List of mostly used UI Elements (or Components) in a Website, built with **React JS**.
 
